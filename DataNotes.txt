@@ -1,0 +1,22 @@
+COLUMN ADJUSTMENTS
+
++ S.No - rename to be UUID 
++ Remove the actual/predicted/plod measures 
++ Keep name – ensure uniqueness 
++ Title – it's almost like an annotation 
++ Add Role column – annotation of purpose / how someone serves 
++ Add lang column – what langs (can be a list) to people speak 
++ Turn male into gender and represent has M and F's 
++ Keep culture, there might even be subcultures? 
++ Replace date of birth/death with age – though you can keep these actually  
++ Keep the relational columns 
++ Remove book[1,2,3,4,5] 
++ Can probably remove isAlive.. Stuff (they were likely optimizer columns) 
++ Move popularity column closer & set priority on those 0.5+ score 
++ Keep isAllive (?)  
+
+QUESTIONS 
+Are there multiple houses in a single culture? 
+Why is culture sparse?  
+Can we use geo-locations from image/video?  
+What about communication events? Indicate relationships / derived connections when people show up in a scene together... or send crows to each other.
